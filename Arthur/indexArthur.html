@@ -5,32 +5,336 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            padding: 5px ;
+            margin: 5px;
+            background-color: rgb(56, 67, 104);
+        }
+        h1{
+            width: 100%;
+            text-align: center;
+            
+            
+        }
+
+        .div1{
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .div1 h1{
+            border: 1px solid black;
+            margin: 15px;
+            border-radius: 10px;
+            
+        }   
+        .div2{
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .div2 h1{
+            border: 1px solid black;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        .div3{
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .div3 h1{
+            border: 1px solid black;
+            margin: 15px;
+            border-radius: 10px;
+        }
+
+        h2{
+            width: 100%;
+            text-align: center;
+            
+            
+        }
+
+        a, p{
+            color: black;
+            text-decoration: none;
+            
+            padding:5px ;
+            border-radius: 5px;
+            
+        }
+        a:hover{
+            background-color: cadetblue;
+        }
+        
+        li a{
+            
+            
+            list-style: none;
+            
+        }
+        
+        
+        .ul1{
+            margin:10px ;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: darkgray;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            display: flex;
+            list-style-type: none;
+        }
+        .conteiner2{
+            margin: 10px;
+            padding-left: 15%;
+            padding-right: 15%;
+            
+            text-align: justify;
+        }
+        .section1_00{
+            border: 1px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            background-color: cadetblue;
+        }
+        .section1_0{
+            margin: 10px;
+            padding-left: 25%;
+            padding-right: 25%;
+            
+            text-align: justify;
+            text-align: center;
+        }
+        .section1{
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: cadetblue;
+            
+        }
+        .section2{
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(109, 95, 160);
+            text-align: center;
+            
+        }
+        .section2_1{
+            
+            margin: 10px;
+            padding-left: 15%;
+            padding-right: 15%;
+            
+            text-align: justify;
+        }
+        .section3{
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color:rgb(73, 119, 73);
+            text-align: center;
+            
+        }
+        .section3_1{
+            margin: 10px;
+            padding-left: 25%;
+            padding-right: 25%;
+            
+            text-align: justify;
+        }
+        .section4{
+            
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color:rgb(116, 119, 73);
+            text-align: center;
+        }
+        .conteiner1{
+            display: flex;
+            margin-left: 10px;
+        }
+        .section4_1{
+            margin: 10px;
+            
+            
+            
+            text-align: justify;
+        }
+        .section4_2{
+            margin: 10px;
+            padding-left: 5%;
+            
+            
+            text-align: justify;
+        }
+        .section4_3{
+            margin: 10px;
+            padding-left: 5%;
+            
+            
+            text-align: justify;
+        }
+        .section4_4{
+            margin: 10px;
+            padding-left: 5%;
+            
+            
+            text-align: justify;
+        }
+
+    </style>
 </head>
-<body>
+<body >
+
+    <header>
+        <section class="section1">
+
+        
+        <h1 style="color:darkslategrey">Pagina HTML</h1>
+       
+
+        <nav>
+            <ul class="ul1">
+                <li>
+                    <a href="">MENU</a>
+                </li>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">SOBRE</a>
+                </li>
+            </ul>
+        </nav>
+        </section>
+    </header>
+
     <main>
-        <header>
-            <h1>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h1>
-        </header>
-        <div class="container">
-            <div>
-                <h1>GIT / GITHUB</h1>
-                <h1>O que é ?</h1>
-                <p>É um versionador e repositório de códigos </p>
-            </div>
+        <section class="section1_00">
+            <header>
+                <h1>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h1>
+            </header>
+            <section class="section1_0">
+                <div class="div1">
+                    <h1>GIT / GITHUB</h1>
+                    <h1>O que é ?</h1>
+                    <p>É um versionador e repositório de códigos </p>
+                </div>
+    
+                <div class="div2">
+                    <h1>COMANDOS LOCAL</h1>
+                    <p>GIT INIT – Iniciando repositório vazio</p>
+                    <p>GIT ADD . – Reconhecer / Atualizar</p>
+                    <p>GIT COMMIT -M “COMENTARIO” - Alterações são adicionadas e uma nova versão é criada</p>
+                </div class="div2">
+    
+                <div class="div3">
+                    <h1>Observações</h1>
+                    <p>Repositório Local é reconhecido como MAIN</p>
+                </div>
 
-            <div>
-                <h1>COMANDOS LOCAL</h1>
-                <p>GIT INIT – Iniciando repositório vazio</p>
-                <p>GIT ADD . – Reconhecer / Atualizar</p>
-                <p>GIT COMMIT -M “COMENTARIO” - Alterações são adicionadas e uma nova versão é criada</p>
-            </div>
-
-            <div>
-                <h1>Observações</h1>
-                <p>Repositório Local é reconhecido como MAIN</p>
-            </div>
-        </div>
+            </section>
+        </section>
     </main>
     
+    <main>
+        <section class="section2">
+        <h2 style="color: rgb(65, 57, 92);">JOÃO PANÇA DE BOI FAMILy</h2>
+            <section class="section2_1">
+            <p>
+                Era uma vez, em uma pequena vila rural, um homem chamado João Pança de Boi. Ele ganhou esse apelido peculiar devido à sua paixão pelos animais, especialmente pelos bovinos que ele cuidava com carinho. João era conhecido por sua personalidade gentil e seu jeito simples de viver.
+            </p>
+            <p>
+                João Pança de Boi vivia em uma modesta casa à beira da vila, cercada por campos verdejantes onde ele pastoreava seu rebanho. Seus dias eram preenchidos com o mugido suave dos bois, o farfalhar das folhas nas árvores e o canto dos pássaros que frequentavam os arredores. 
+            </p>
+            <p>
+                Um dia, algo extraordinário aconteceu. João Pança de Boi encontrou um bezerro abandonado à beira da estrada. O pequeno boi, com olhos grandes e tristes, olhou para João com uma expressão de necessidade. Sem hesitar, João decidiu adotar o bezerro e chamou-o carinhosamente de Bolinha.
+            </p>
+            <p>
+                Bolinha cresceu sob os cuidados atenciosos de João Pança de Boi. Eles se tornaram inseparáveis, uma dupla incomum que cativava a atenção de todos na vila. João passou a treinar Bolinha para realizar truques simples e, em pouco tempo, a dupla se apresentava em festas e eventos locais, trazendo alegria e sorrisos por onde passavam.
+            </p>
+            <p>
+                A fama de João Pança de Boi e Bolinha se espalhou para além da vila, atraindo a atenção de um circo itinerante que buscava atos únicos e encantadores. Eles foram convidados a se juntar ao circo, onde suas apresentações conquistaram corações por todo o país.
+            </p>
+            <p>
+                Apesar da vida agitada no circo, João Pança de Boi sempre lembrava suas raízes simples e nunca deixou de cuidar de Bolinha com amor e dedicação. A dupla se tornou uma sensação nacional, mas João permaneceu fiel à sua natureza humilde.
+            </p>
+            <p>
+                Com o tempo, João Pança de Boi e Bolinha se aposentaram do circo e retornaram à sua vila natal. Lá, eles viveram seus dias tranquilos, cercados pela comunidade que os adorava. João continuou a pastorear seus bois e Bolinha desfrutou de dias preguiçosos sob a sombra das árvores.
+            </p>
+            <p>
+                E assim, a história de João Pança de Boi e Bolinha se tornou uma lenda na vila, lembrando a todos sobre a beleza da simplicidade, o poder do amor pelos animais e a alegria que uma amizade verdadeira pode proporcionar.
+            </p>
+            </section>
+            
+        </section>
+        <section class="section3">
+            <h2 style="color:rgb(48, 78, 48)">MARIA PANAÇA DE BOI AND JOAN OF PANÇA OF THE BOI 2</h2>
+            <section class="section3_1">
+                <p>ola</p>
+                <p>oi</p>
+                <p>oi</p>
+                <p>oi</p>
+
+            </section>
+    </section>
+
+
+    </main>
+
 </body>
+<footer>
+    <section class="section4">
+
+        <h3  style="color:rgb(61, 63, 38)">INFORMAÇÃO</h3>
+
+        <section class="conteiner1">
+            <section class="section4_1">
+
+                <h3>Desenvolvimento</h3>
+                <p>conceito</p>
+                <p>objetos</p>
+                
+                <p>MEC</p>
+
+            </section>
+
+            <section class="section4_2">
+                <h3>Área Curricular</h3>
+                <p>MaisVistos</p>
+                <p>historias</p>
+                <p>lançamentos</p>
+                <p>MEC</p>
+            </section>
+
+            <section class="section4_3">
+                <h3>fichario</h3>
+                <p>data</p>
+                <p>horarios</p>
+                <p>familia</p>
+                <p>meses</p>
+            </section>
+
+            <section class="section4_4">
+                <h3>Desenvolvimento</h3>
+                <p>conceito</p>
+                <p>objetos</p>
+                <p>Picture</p>
+                <p>MEC</p>
+            </section>
+
+        </section>
+    </section>
+    
+
+</footer>
 </html>
+
+
+
