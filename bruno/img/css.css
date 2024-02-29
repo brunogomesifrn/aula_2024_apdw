@@ -6,6 +6,17 @@
     width: 555px;
     height: 500px;
 }
+
+img{
+    border-radius: 20px;
+}
+
+p {
+    color: aliceblue;
+}
+
 body{
     background-color: rgb(255, 93, 220);
+    margin: 0;
+    text-align: center;
 }
